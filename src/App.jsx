@@ -1,4 +1,7 @@
+// rrd
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
+
+// layout
 import MainLayout from "./layout/MainLayout"
 
 // pages

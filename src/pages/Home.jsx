@@ -1,8 +1,14 @@
-import React from 'react'
+// components
+import { ProductDesc, SeeProduct } from '../components'
+
+// sectins
+import { Mark2 } from '../sections'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <Mark2 />
+    </>
   )
 }
 

@@ -20,7 +20,7 @@ function Mark2() {
                         </div>
                     </ProductDesc>
                     <div>
-                        <img src="../public/headphone-semiblack.png" alt="headphone" />
+                        <img src="../assets/headphone-semiblack.png" alt="headphone" />
                     </div>
                 </div>
             </div>

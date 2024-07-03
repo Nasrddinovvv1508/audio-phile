@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="navbar">
                     <div className="navbar-start">
                         <Link to={`/`}>
-                            <img src="./public/logo.svg" alt="logo" />
+                            <img src="../assets/logo.svg" alt="logo" />
                         </Link>
                     </div>
                     <div className="navbar-center">

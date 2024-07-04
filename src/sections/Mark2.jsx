@@ -2,7 +2,7 @@ import { ProductDesc, SeeProduct } from '../components'
 
 function Mark2() {
     return (
-        <section className='bg-[#141414]'>
+        <section className='bg-[#141414] mb-[190px]'>
             <div className='site-container'>
                 <div className='text-white grid grid-cols-2 items-center'>
                     <ProductDesc >

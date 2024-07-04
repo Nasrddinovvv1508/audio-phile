@@ -2,12 +2,13 @@
 import { ProductDesc, SeeProduct } from '../components'
 
 // sectins
-import { Mark2 } from '../sections'
+import { Mark2, ShopLinks } from '../sections'
 
 function Home() {
   return (
     <>
       <Mark2 />
+      <ShopLinks />
     </>
   )
 }

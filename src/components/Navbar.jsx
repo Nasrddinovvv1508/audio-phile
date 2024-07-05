@@ -9,7 +9,7 @@ import Cart from './Cart';
 
 function Navbar() {
     return (
-        <div className='bg-[#141414]'>
+        <header className='bg-[#141414]'>
             <div className='site-container py-6' style={{ borderBottom: `2px solid #333333` }}>
                 <div className="navbar">
                     <div className="navbar-start">
@@ -30,7 +30,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

@@ -15,6 +15,24 @@ body {
     margin-right: auto;
 }
 
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    transition: all 0.2s;
+}
+
+button {
+    transition: all 0.4s;
+}
+
 .active {
     color: #d87d4a;
+}
+
+.site-footer {
+    margin-top: auto;
 }

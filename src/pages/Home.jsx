@@ -2,7 +2,7 @@
 import { ButtonTransparent, ProductDesc, SeeProduct } from '../components'
 
 // sectins
-import { Mark2, ShopLinks } from '../sections'
+import { BestAudioGear, Mark2, ShopLinks } from '../sections'
 
 function Home() {
   return (
@@ -43,6 +43,8 @@ function Home() {
           </div>
         </ProductDesc>
       </section>
+
+      <BestAudioGear />
     </>
   )
 }

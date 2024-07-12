@@ -12,22 +12,32 @@ function Home() {
 
       <section className='mb-[48px]'>
         <div className='site-container bg-[#D87D4A] rounded-lg'>
-          <div className='w-full pl-[117px] pt-[96px] pr-[95px] flex items-center gap-[138px] text-white '>
-            <img src="../assets/hero-speaker.png" alt="hero speaker" />
-            <ProductDesc>
-              <h1 className='text-[56px] font-bold leading-[58px] tracking-[2px] mb-6'>ZX9 SPEAKER</h1>
-              <p className='text-[15px] leading-[25px] mb-10'>
-                Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
-              </p>
-              <button className='bg-black rounded-sm hover:bg-white font-medium hover:text-black py-[15px] px-[30px] uppercase'>
-                See Product
-              </button>
-            </ProductDesc>
+          <div className='w-full pl-[117px] pt-[96px] pr-[95px] grid grid-cols-2 items-start gap-[138px] text-white relative'>
+
+            <img
+              src="../assets/bg-lines.png"
+              className='absolute'
+              alt="lines" />
+
+            <div className='z-10'>
+              <img src="../assets/hero-speaker.png" alt="hero speaker" />
+            </div>
+            <div className='z-10 pt-[32px]'>
+              <ProductDesc>
+                <h1 className='text-[56px] font-bold leading-[58px] tracking-[2px] mb-6'>ZX9 SPEAKER</h1>
+                <p className='text-[15px] leading-[25px] mb-10'>
+                  Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
+                </p>
+                <button className='bg-black rounded-sm hover:bg-white font-medium hover:text-black py-[15px] px-[30px] uppercase'>
+                  See Product
+                </button>
+              </ProductDesc>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className='site-container pl-[95px] py-[101px] bg-[url("../assets/bg-speaker.png")] mb-12'>
+      <section className='site-container pl-[95px] py-[101px] bg-[url("../assets/bg-speaker.png")] bg-no-repeat mb-12'>
         <ProductDesc>
           <h1 className='font-bold text-[28px] leading-[38px] tracking-[2px] mb-8'>ZX7 SPEAKER</h1>
           <ButtonTransparent />

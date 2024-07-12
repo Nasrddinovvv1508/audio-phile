@@ -1,6 +1,6 @@
 import React from 'react'
 import { BestAudioGear, BgBlackSection } from '../sections'
-import { ProductLeftDesc, ProductRightDesc } from '../components'
+import { ProductLeftDesc, ProductRightDesc, ShopItems } from '../components'
 
 function Headphones() {
   return (
@@ -33,6 +33,10 @@ function Headphones() {
           title='XX59 Headphones'
         />
       </>
+
+      <section className='site-container mb-[160px] mt-[240px]'>
+        <ShopItems />
+      </section>
 
       <BestAudioGear />
     </>

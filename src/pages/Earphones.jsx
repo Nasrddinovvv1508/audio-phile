@@ -1,8 +1,13 @@
 import React from 'react'
+import { BgBlackSection } from '../sections'
 
 function Earphones() {
   return (
-    <div>Earphones</div>
+    <>
+      <section className='mb-[160px]'>
+        <BgBlackSection text={`earphones`} />
+      </section>
+    </>
   )
 }
 
